@@ -6,5 +6,5 @@ testCompile()
 {
   compile
   assertCapturedSuccess
-  assertCaptured "Installed"
+  assertCaptured "-----> Installed libicu-dev"
 }

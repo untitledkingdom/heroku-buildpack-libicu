@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# this pack is valid for apps with a hello.txt in the root
+if hash apt-get 2>/dev/null; then
+  echo "apt-get present" && exit 0
+else
+  echo "error: no apt-get" && exit 1
+fi

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo "-----> Installing libicu-dev"
+apt-get install libicu-dev -y
+echo "-----> Installed libicu-dev"

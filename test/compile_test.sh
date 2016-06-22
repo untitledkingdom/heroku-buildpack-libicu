@@ -1,0 +1,3 @@
+compile
+assertCapturedSuccess
+assertCaptured "Installed"
